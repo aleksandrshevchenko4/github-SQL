@@ -1,0 +1,14 @@
+﻿--Создание таблицы koolilapsed--
+
+create table koolilapsed(
+	id int primary key AUTOINCREMENT,
+	nimi varchar(20),
+	vanus int);
+
+--Удаление записи где id=1--
+
+delete from kollilapsed where id=1;
+
+--Показать всё из таблицы kollilapsed--
+
+select # from kollilapsed
